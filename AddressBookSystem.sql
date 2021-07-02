@@ -21,6 +21,7 @@ insert into AddressBook values
 ('Bipin','Kumar','NaiSarai','BiharSharif','Bihar',803101,'+91-9961365986','Bipinkumar579@gmail.com'),
 ('Saurabh','Yadav','Mukherjee Nagar','Noth-West Delhi','New Delhi',110009,'9963486521','Saurabh12@gmail.com'),
 ('Manish','Kumar','Gandhi Vihar','North Delhi','New Delhi',110009,'7060798645','Manish897@gmail.com');
+
 --For view table
 select*from AddressBook
 
@@ -38,4 +39,5 @@ select*from AddressBook where State='New Delhi'
 select COUNT (City) from AddressBook; --Also we use Distinct here to list the diffrent value (Returns only Different values)
 select COUNT (State) from AddressBook;
 
-
+--UC8-Reterive Entries Sorted Alphabetically by Person name for a given city
+select * from AddressBook where City= 'BiharSharif' order by FirstName
