@@ -27,5 +27,8 @@ select*from AddressBook
 --UC4-Edit Existing Contact person Using their name
 UPDATE AddressBook set address = 'Varanasi' where FirstName = 'Manish' AND LastName = 'Kumar'
 
+--UC5-Delete a Person Using Person Name
+Delete from AddressBook where FirstName='Bipin' and LastName='Kumar'
+
 
 
