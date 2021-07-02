@@ -15,4 +15,14 @@ PhoneNumber varchar(15),
 Email varchar(50)
 );
 
+--UC3-Insert new Contacts to address Book
+insert into AddressBook values
+('Akash','Chandra','Rajgir','BiharSharif','Bihar',803101,'+91-7060731665','Akashchandra123@gmail.com'),
+('Bipin','Kumar','NaiSarai','BiharSharif','Bihar',803101,'+91-9961365986','Bipinkumar579@gmail.com'),
+('Saurabh','Yadav','Mukherjee Nagar','Noth-West Delhi','New Delhi',110009,'9963486521','Saurabh12@gmail.com'),
+('Manish','Kumar','Gandhi Vihar','North Delhi','New Delhi',110009,'7060798645','Manish897@gmail.com');
+--For view table
+select*from AddressBook
+
+
 
