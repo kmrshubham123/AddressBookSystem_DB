@@ -30,5 +30,9 @@ UPDATE AddressBook set address = 'Varanasi' where FirstName = 'Manish' AND LastN
 --UC5-Delete a Person Using Person Name
 Delete from AddressBook where FirstName='Bipin' and LastName='Kumar'
 
+--UC6-Retrieve Person Belonging to a city or state from the address book
+select*from AddressBook where City='BiharSharif'
+select*from AddressBook where State='New Delhi'
+
 
 
