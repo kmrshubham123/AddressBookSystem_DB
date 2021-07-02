@@ -50,4 +50,5 @@ UPDATE AddressBook set Type = 'Friend' where FirstName='Manish'
 UPDATE AddressBook set Type = 'Family' where FirstName='Saurabh'
 UPDATE AddressBook set Type = 'Doctor' where FirstName='Bipin'
 
-
+--UC10-Get number of person by Count type
+select COUNT(Type) from AddressBook
