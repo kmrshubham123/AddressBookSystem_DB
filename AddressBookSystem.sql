@@ -52,3 +52,9 @@ UPDATE AddressBook set Type = 'Doctor' where FirstName='Bipin'
 
 --UC10-Get number of person by Count type
 select COUNT(Type) from AddressBook
+
+--UC11-Add Person to both Friend and Family
+insert into AddressBook values
+('Rajesh','Rahi','Mayur Vihar','East Delhi','New Delhi',110029,'7065698645','RajeshRahi1966@gmail.com','Family and Friend');
+
+
