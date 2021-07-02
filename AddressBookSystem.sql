@@ -34,5 +34,8 @@ Delete from AddressBook where FirstName='Bipin' and LastName='Kumar'
 select*from AddressBook where City='BiharSharif'
 select*from AddressBook where State='New Delhi'
 
+--UC7-Count Row Size from Address Book
+select COUNT (City) from AddressBook; --Also we use Distinct here to list the diffrent value (Returns only Different values)
+select COUNT (State) from AddressBook;
 
 
